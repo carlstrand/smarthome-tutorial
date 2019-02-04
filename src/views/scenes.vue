@@ -33,9 +33,11 @@ export default {
       progress: 0,
       elements: [
         { scene: 'Day', color: 'orange', icon: 'fa-sun', msg: 'Cooling rooms, blinds opened, playing ambient music' },
-        { scene: 'Night', color: 'blue', icon: 'fa-moon', msg: 'Blinds closed, AC in silence mode, motion sensors active' },
-        { scene: 'Away', color: 'red', icon: 'fa-shield-alt', msg: 'Alarm armed, cameras activated, blinds closed' },
-        { scene: 'At home', color: 'green', icon: 'fa-home', msg: 'Lights in ambient mode, playing relax music, coffee is being prepared' }
+        { scene: 'Natt', color: 'blue', icon: 'fa-moon', msg: 'Blinds closed, AC in silence mode, motion sensors active' },
+        { scene: 'Bortrest', color: 'red', icon: 'fa-shield-alt', msg: 'Alarm armed, cameras activated, blinds closed' },
+        { scene: 'Bolibompatajm', color: 'red', icon: 'fa-shield-alt', msg: 'Alarm armed, cameras activated, blinds closed' },
+        { scene: 'Ensam hemma', color: 'green', icon: 'fa-home', msg: 'Lights in ambient mode, playing relax music, coffee is being prepared' }
+        { scene: 'Hemma', color: 'green', icon: 'fa-home', msg: 'Lights in ambient mode, playing relax music, coffee is being prepared' }
       ]
     }
   },
