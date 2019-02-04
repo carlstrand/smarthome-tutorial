@@ -26,7 +26,7 @@
         :angle="-30"
         size="s"
         :distance="120"
-        label="family"
+        label="Familj"
         label-pos="right"
         to-view="family">
         <i class="fas fa-map-marker-alt"></i>
@@ -36,7 +36,7 @@
         :angle="0"
         size="s"
         :distance="120"
-        label="scenes"
+        label="Scenarion"
         label-pos="right"
         to-view="scenes">
         4
@@ -46,7 +46,7 @@
         :angle="30"
         size="s"
         :distance="120"
-        label="Rooms"
+        label="Rum"
         label-pos="right"
         to-view="rooms">
         5
@@ -56,7 +56,7 @@
         :angle="60"
         :distance="120"
         size="s"
-        label="Devices"
+        label="Enheter"
         label-pos="right"
         to-view="devices">
         45
@@ -66,7 +66,7 @@
         :angle="150"
         :distance="120"
         size="s"
-        label="Settings"
+        label="System"
         to-view="settings">
         <i class="fas fa-sliders-h"></i>
       </z-spot>
